@@ -35,6 +35,5 @@ do{
     console.log(nombre);
     var estado = prompt('Ingrese "stop" si quiere salir')
 }while(estado != 'stop')
-{
-    
-}
+
+//Funciones: bloques de codico, definidos como una rutina

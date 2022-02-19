@@ -16,3 +16,15 @@ for (/*Inicio*/var i = 0; /*hasta*/i < hasta; /*de cuanto en cuanto*/i = i + 1) 
 // acumulador = acumulador + dato
 
 //Ciclo While
+//solicita por N nombre e implimelos en consola, el usuario dirá
+//stop para cuando quiera dejar de ingresar nombres
+//while(condicional o prueba logica){
+//    instrucciones a ejecutar y repetirse mientras la condicion se cumpla
+//}
+var estado = prompt('ingrese "stop" si quiere salir')
+while(estado != 'stop'){
+    var nombre = prompt('ingresa tu nombre');
+    console.log(nombre);
+    estado = prompt('ingrese "stop" si quiere salir');
+}
+

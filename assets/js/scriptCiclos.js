@@ -28,3 +28,13 @@ while(estado != 'stop'){
     estado = prompt('ingrese "stop" si quiere salir');
 }
 
+//Do While
+
+do{
+    var nombre = prompt('ingresa tu nombre');
+    console.log(nombre);
+    var estado = prompt('Ingrese "stop" si quiere salir')
+}while(estado != 'stop')
+{
+    
+}
